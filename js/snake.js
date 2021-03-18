@@ -1,4 +1,5 @@
 /**
+ * 参考自 https://github.com/betamos/Snake-JS/blob/master/snake-js.js
  * snake.js
  * content: 贪吃蛇小游戏实现逻辑
  */
