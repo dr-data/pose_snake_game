@@ -1,0 +1,122 @@
+/**
+ * Content 页面样式
+ * Author Yaozh 
+ */ 
+
+/* 字体 */
+@font-face{
+    font-family: Pix;
+    src: url("../fonts/Pix\ Body.TTF");
+}
+
+/* 主体容器 */
+.main-body{
+    background-color: rgba(65, 112, 124, 0.897); 
+    margin-top: 100px;
+    max-width: 1200px; 
+    border-radius: 1.2rem; 
+    box-shadow: 0.5rem 0.4rem 0.5rem 0.5rem rgba(255, 255, 255, 0.267);
+}
+
+/* 全屏背景图片 */
+#web_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    z-index: -10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    background-image: url(../img/bg.gif);
+}
+
+/* 左边屏幕 */
+.screen-l{
+    background-color: rgba(179, 185, 168, 0.781); 
+    border-radius: 1.0rem;
+    box-shadow: 0.5rem 0.4rem 0.4rem 0.1rem rgba(255, 255, 255, 0.205);
+}
+
+/* 摄像头 */
+.webcam{
+    background-color: rgba(114, 130, 163, 0.788); 
+    border: 0rem;
+    border-radius: 1.3rem;
+    font-family: "Pix";
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+}
+.webcam >canvas{
+    border-radius: 1.3rem;
+    border: 0.5rem solid rgb(56, 55, 54);
+}
+
+/* 游戏标题 */
+.tit{
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Pix";
+    color: rgba(255, 255, 255, 0.829);
+    position:absolute;
+    top:10px;
+    text-align: center;
+}
+
+/* 分数板 */
+.score{
+    font-family: Pix; 
+    font-size: 80px; 
+    font-weight: 700; 
+    text-align: center; 
+    background-color: rgba(114, 130, 163, 0.788); 
+    border: 0.5rem solid rgb(56, 55, 54);
+    border-radius: 0.8rem;
+}
+
+/* 预测 */
+.predi{
+    background-color: rgba(114, 130, 163, 0.788); 
+    border: 0.5rem solid rgb(56, 55, 54);
+    border-radius: 0.8rem;
+}
+.precent-p{
+    height: 23px; 
+    background: rgba(77, 77, 85, 0.76);
+    border-radius: 0.7rem;
+}
+.precent-d{
+    position: absolute; 
+    left:45%;
+    font-size: 17px;
+}
+.precent-c{
+    font-size: 17px;
+    font-weight: 500; 
+    font-family: Pix; 
+    width: 100%; 
+    background-color: rgb(178, 188, 190);
+}
+
+/* 右边屏幕 */
+.screen-r{
+    background-color: rgba(179, 185, 168, 0.781); 
+    border-radius: 1.0rem; 
+    box-shadow: 0.5rem 0.4rem 0.4rem 0.1rem rgba(255, 255, 255, 0.205);
+}
+
+/* 游戏画面板 */
+.game-board{
+    border: 0rem; 
+    border-radius: 1.7rem;
+}
+.game-board >canvas{
+    border: 0.6rem solid rgba(56, 55, 54, 0.856);
+}
