@@ -80,4 +80,4 @@ Then open `index.html`.
 
 ## Screenshots
 
-![screenshots](img\srceenshots.png)
+![screenshots](https://github.com/Yaozhtj/pose_snake_game/blob/main/img/srceenshots.png)
